@@ -1,0 +1,68 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Sensitive config / local settings
+config.py
+*.local
+secrets.json
+
+# Model / data artifacts (store elsewhere or use LFS)
+models/
+*.pt
+*.pth
+*.h5
+*.joblib
+*.pkl
+data/
+datasets/
+*.npz
+
+# Test output / coverage
+coverage.xml
+htmlcov/
+.coverage
+
+# Reports / artifacts
+reports/
+artifacts/
+
+# Docker
+.env
+docker-compose.override.yml
+
+# macOS Finder attributes
+.AppleDouble
+.LSOverride
+
+# OS generated files
+ehthumbs.db
